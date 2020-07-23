@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+div {
+  position:relative;
+  z-index: 2;
+}
+
+body {
+  background-image: url(images/img.jpg);
+  background-repeat: repeat;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:500;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 50px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#quote_slider {
+  border-style: dashed;
+  padding: 15px;
+}
+
+#quotation {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.list-inline {
+  padding: 45px 0 45px 0;
+}
